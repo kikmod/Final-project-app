@@ -1,0 +1,144 @@
+GET http://localhost:3000/api/user/subscribers
+
+###
+
+GET http://localhost:3000/api/user/subscribers/63ea66f0d6c59f2996746c55
+###
+
+POST http://localhost:3000/api/user/subscribers
+Content-Type: application/json
+
+{
+"name":"rksadsdssfsds",
+"email":"w4wsaerfdsq@gmail.com",
+"password":"wissaewrssrsd",
+"phone":"4d9548fsssdfsd5",
+"gender":"fsddsfsdss",
+"user_id":"inrsdsdsfssueo"
+
+}
+###
+GET  http://localhost:3000/logins
+###
+POST http://localhost:3000/api/user/logins
+Content-Type: application/json
+
+{
+    
+  "email":"w4fdssssq@gmail.com",
+"password":"wissrssssd"
+  
+
+}
+
+
+###
+GET  http://localhost:3000/api/user/eyess
+###
+GET  http://localhost:3000/api/user/eyess/6429a881c4eb611a64d59f49
+
+
+
+
+###
+POST http://localhost:3000/api/user/eyess
+Content-Type: application/json
+
+{
+    "disease_name_eyes":"uzxiwysder",
+    "Symptoms_disease_eyes":"zxuidsydiausus",
+    "treatment_eyes":"ahsjgssdjzxz",
+    "Effective_Material_eyes":"ksdzxzxjsahksjs"
+}
+###
+GET  http://localhost:3000/api/user/earss/6429a336167565e93c11b358
+###
+POST http://localhost:3000/api/user/earss
+Content-Type: application/json
+
+{
+    "disease_name_ears":"uiwyer",
+    "Symptoms_disease_ears":"uiydiausus",
+    "treatment_ears":"ahsjgsj",
+    "Effective_Material_ears":"kjsahksjs"
+}
+
+
+###
+GET  http://localhost:3000/api/user/headaches/6429a1d07c6d62390e8b8eb8
+###
+POST http://localhost:3000/api/user/headaches
+Content-Type: application/json
+
+{
+    "disease_name_headache":"uiwjjiyer",
+    "Symptoms_disease_headache":"uiiuhydiausus",
+    "treatment_headache":"ahsjgsiohj",
+    "Effective_Material_headache":"kijjsahksjs"
+}
+
+###
+GET  http://localhost:3000/babys
+###
+POST http://localhost:3000/babys
+Content-Type: application/json
+
+{
+    "disease_name_baby":"uiwjjiyer",
+    "Symptoms_disease_baby":"uiiuhydiausus",
+    "treatment_baby":"ahsjgsiohj",
+    "Effective_Material_baby":"kijjsahksjs"
+}
+
+###
+GET  http://localhost:3000/kidneys
+###
+POST http://localhost:3000/kidneys
+Content-Type: application/json
+
+{
+    "disease_name_kidney":"uiwjjiyer",
+    "Symptoms_disease_kidney":"uiiuhydiausus",
+    "treatment_kidney":"ahsjgsiohj",
+    "Effective_Material_kidney":"kijjsahksjs"
+}
+
+
+###
+GET  http://localhost:3000/hairs
+###
+POST http://localhost:3000/hairs
+Content-Type: application/json
+
+{
+    "disease_name_hair":"uiwjjiyer",
+    "Symptoms_disease_hair":"uiiuhydiausus",
+    "treatment_hair":"ahsjgsiohj",
+    "Effective_Material_hair":"kijjsahksjs"
+}
+
+###
+GET  http://localhost:3000/api/user/lungss/6417a01d307a6da3fe596ce0
+###
+POST http://localhost:3000/api/user/lungss
+Content-Type: application/json
+
+{
+    "disease_name_lungs":"uiwjjiyer",
+    "Symptoms_disease_lungs":"uiiuhydiausus",
+    "treatment_lungs":"ahsjgsiohj",
+    "Effective_Material_lungs":"kijjsahksjs"
+}
+
+###
+GET  http://localhost:3000/api/user/skins/63e91ddc129b0f208917c8cc
+###
+POST http://localhost:3000/api/user/skins
+Content-Type: application/json
+
+{
+    "disease_name_skin":"uiwjjiyer",
+    "Symptoms_disease_skin":"uiiuhydiausus",
+    "treatment_skin":"ahsjgsiohj",
+    "Effective_Material_skin":"kijjsahksjs"
+}
